@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Calculator</title>
+    <script src="./calculator.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+
+    <h1>Simple Calculator</h1>
+    <input type="number" id="num1" value="0"><br /><br />
+    <input type="number" id="num2" value="0"><br /><br />
+    <select id="operation">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="/">/</option>
+      <option value="*">*</option>
+    </select>
+    <button type="button" id="calculate" onclick="calc();">=</button><br /><br />
+    <input type="text" id="result" readonly />
+  </body>
+
+</html>

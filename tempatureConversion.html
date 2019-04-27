@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tempature Calculator</title>
+    <script src="./tempatureConversion.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">Home Page - </a>
+      <a href="./second.html">Slot Machine - </a>
+    </nav>
+    <div>
+      <section>
+        <h1>Tempature Calculator</h1>
+        <p>Fill in the fields and select the conversion that you'd like to use.</p>
+      </section>
+      <hr />
+      <section>
+        <label for="firstTemp">From</label>
+        <input type="number" value="0" id="firstTemp" />
+        <select name="tempType1" id="tempType1">
+          <option value="fahrenheit" name="tempType1">Fahrenheit</option>
+          <option value="kelvin" name="tempType1">Kelvin</option>
+          <option value="celsius" name="tempType1">Celsius</option>
+        </select>
+        <div>
+          <label for="tempType1">To</label> <br />
+          <input type="radio" name="tempType2" id="tempO1" value="fahrenheit" required>
+          <label for="tempO1">Fahrenheit</label> <br />
+          <input type="radio" name="tempType2" id="tempO2" value="kelvin">
+          <label for="tempO2">Kelvin</label> <br />
+          <input type="radio" name="tempType2" value="celsius" id="tempO3">
+          <label for="tempO3">Celsius</label> <br />
+        </div>
+        <button type="button" name="tempType2" id="tempCalc" onclick="tempCalc();">Calculate</button>
+        <hr />
+        <span id="tempResult">Press Calculate To See Result</span>
+      </section>
+    </div>
+  </body>
+</html>
