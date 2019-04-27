@@ -8,7 +8,8 @@
   <body>
     <nav>
       <a href="./index.html">Home Page - </a>
-      <a href="./second.html">Slot Machine - </a>
+      <a href="./calculator.html">Simple Calculator - </a>
+      <a href="./slotMachine.html">Slot Machine</a>
     </nav>
     <div>
       <section>
@@ -24,16 +25,15 @@
           <option value="kelvin" name="tempType1">Kelvin</option>
           <option value="celsius" name="tempType1">Celsius</option>
         </select>
-        <div>
-          <label for="tempType1">To</label> <br />
-          <input type="radio" name="tempType2" id="tempO1" value="fahrenheit" required>
-          <label for="tempO1">Fahrenheit</label> <br />
-          <input type="radio" name="tempType2" id="tempO2" value="kelvin">
-          <label for="tempO2">Kelvin</label> <br />
-          <input type="radio" name="tempType2" value="celsius" id="tempO3">
-          <label for="tempO3">Celsius</label> <br />
+        <div id="sectionTwo">
+          <label for="tempType1">To</label>
+          <select id="tempType2" name="tempType1">
+            <option value="fahrenheit" name="tempType2">Fahrenheit</option>
+            <option value="kelvin" name="tempType2">Kelvin</option>
+            <option value="celsius" name="tempType2">Celsius</option>
+          </select>
         </div>
-        <button type="button" name="tempType2" id="tempCalc" onclick="tempCalc();">Calculate</button>
+        <button type="button" id="tempCalc" onclick="tempCalc();">Calculate</button>
         <hr />
         <span id="tempResult">Press Calculate To See Result</span>
       </section>
