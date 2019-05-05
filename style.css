@@ -1,0 +1,52 @@
+body {
+  font-family: Tahoma;
+  text-align: center;
+  background-image: url('./images/galaxybackground.jpg');
+  background-size: 100%, 100%;
+}
+
+h1 {
+  font-size: 40px;
+  color: Plum;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  color: DarkOrange;
+}
+
+label {
+  font-size: 26px;
+  font-weight: 200;
+  color: DarkOrange;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+a {
+  color: white;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 200;
+  color: DarkOrange;
+}
+
+input {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+select {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 200;
+}
