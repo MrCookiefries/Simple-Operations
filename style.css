@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Tahoma;
+  font-family: Helvetica;
   text-align: center;
   background-image: url('./images/galaxybackground.jpg');
   background-size: 100%, 100%;
@@ -22,12 +26,28 @@ label {
   color: DarkOrange;
 }
 
+main {
+  display: inline-block;
+  width: 75%;
+}
+
 nav {
   background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  height: 95%;
+  border: double 8px DarkOrange;
+  border-radius: 30px;
 }
 
 a {
   color: white;
+}
+
+a:hover {
+  color: blue;
 }
 
 span {
